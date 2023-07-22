@@ -1,0 +1,96 @@
+body{
+    width: 100%;
+    margin-top: 100px;
+}
+.tableBox {
+  width: 100%;
+  margin: auto;
+  /* border: 1px solid red; */
+}
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  /* width: 100%; */
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+.btndelete{
+    padding: 10px 25px 10px 25px;
+    font-size: 19px;
+    background-color: #0468aa;
+    border-color: transparent;
+    border-radius: 10px;
+    color: white;
+    /* border-color: rgb(101, 8, 8); */
+}
+.btndelete:hover{
+    font-size: 20px;
+    background-color: rgb(101, 8, 8);
+    color: white;
+    cursor: pointer;
+}
+.addBtn{
+    padding: 10px 25px 10px 25px;
+    font-size: 19px;
+    color: white;
+    background-color: #0468aa;
+    border-color: transparent;
+    border-radius: 10px;
+}
+.addBtn:hover{
+    color: #0468aa;
+    font-size: 19px;
+    background-color: transparent;
+    border-color: #0468aa;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+td{
+    width: 200px;
+    
+}
+
+table tr:nth-child(even) {
+  background-color: #8caacf;
+
+}
+
+/* table tr:hover {
+  background-color: #ddd;
+} */
+
+table th {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+  background-color: #0468aa;
+  color: white;
+  text-align: center;
+}
+.addUsers{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    /* border: 1px solid rebeccapurple; */
+    color: #0468aa;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* border-radius: 20px; */
+}
+
+.modal{
+    position: absolute;
+    top: -50px;
+    left: 550px;
+    bottom: 10px;
+    opacity: 1;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
